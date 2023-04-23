@@ -6,7 +6,7 @@ public class Question4
   {
     Scanner in = new Scanner(System.in);
     System.out.println("Enter base");
-    int base = sc.nextInt();
+    int base = in.nextInt();
     int x, y;
     for(x = 0; x < base; x++)
     {

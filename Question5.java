@@ -28,14 +28,14 @@ public class Question5
      
     Scanner in = new Scanner(System.in);
     System.out.println("Enter number of integers");
-    int n = sc.nextInt(), c;
+    int n = in.nextInt(), c;
     int [] a = new int[n];
     int [] b = new int[n];
     System.out.println("Enter set of integers");
-    double sum=0;
+    double sum = 0;
     for(int i=0;i<n;i++)
     {
-      a[i]=sc.nextInt();
+      a[i] = in.nextInt();
     }
     {
       for(int i=0;i<n;i++)
@@ -65,7 +65,7 @@ public class Question5
       for(int i=0;i<n;i++)
       {
         if(b[i]==m)
-          System.out.println("Mode:", a[i]);
+          System.out.println("Mode:" + a[i]);
       }
     }
   }
